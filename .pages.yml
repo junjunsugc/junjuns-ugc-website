@@ -41,16 +41,17 @@ content:
         label: Project Title
         type: string
         required: true
-      - name: category
+   - name: category
         label: Portfolio Category
         type: select
         options:
-          - label: Beauty
-            value: beauty
-          - label: Cosplay & Fashion
-            value: fashion
-          - label: Travel, Lifestyle & Food
-            value: lifestyle
+          values:
+            - value: beauty
+              label: Beauty
+            - value: fashion
+              label: Cosplay & Fashion
+            - value: lifestyle
+              label: Travel, Lifestyle & Food
       - name: description
         label: Description
         type: text
