@@ -65,10 +65,6 @@ content:
         label: Instagram / TikTok / YouTube Video
         type: string
         description: Paste your video link here.
-      - name: video_url
-        label: Instagram / TikTok / YouTube Link
-        type: string
-        description: Paste your video link here (optional).
       - name: status
         label: Project Label
         type: string
