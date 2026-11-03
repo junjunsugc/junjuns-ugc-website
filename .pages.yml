@@ -62,6 +62,10 @@ content:
         type: file
         description: Upload your original video file.
       - name: video_url
+        label: Instagram / TikTok / YouTube Video
+        type: string
+        description: Paste your video link here.
+      - name: video_url
         label: Instagram / TikTok / YouTube Link
         type: string
         description: Paste your video link here (optional).
