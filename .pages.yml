@@ -57,10 +57,14 @@ content:
       - name: cover
         label: Cover Photo
         type: image
+      - name: video
+        label: Upload Video (MP4)
+        type: file
+        description: Upload your original video file.
       - name: video_url
-        label: Instagram, TikTok or YouTube Link
+        label: Instagram / TikTok / YouTube Link
         type: string
-        description: Paste the full URL of your video.
+        description: Paste your video link here (optional).
       - name: status
         label: Project Label
         type: string
