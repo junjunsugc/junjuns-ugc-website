@@ -1,0 +1,1 @@
+const fs=require('fs');const names=fs.readdirSync('content/projects').filter(f=>f.endsWith('.json')).map(f=>f.slice(0,-5));fs.writeFileSync('content/projects.json',JSON.stringify(names));console.log('Updated project index:',names.length);

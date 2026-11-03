@@ -1,0 +1,21 @@
+JUNJUNS UGC — FRESH FUSION SCRAPBOOK EXTENDED
+
+Open index.html to preview. For best results use VS Code + Live Server.
+
+PAGES:
+index.html Home
+about.html About Me
+specialties.html Specialties
+process.html Creative Process
+why.html Why Choose Me
+services.html Photo + Video Services
+packages.html Packages / Rate Card
+beauty.html, fashion.html, lifestyle.html Project galleries
+contact.html Contact
+
+To edit text: open the relevant .html file and search for the text.
+To edit prices: open packages.html and search for €150, €400, €650, €60, €90 or €160. These are sample rates, not finalized quotes.
+To change the color palette: open editorial.css and edit the :root color values. Original styling is in fresh-fusion.css and style.css.
+To replace project videos/images, edit the existing gallery HTML and place files inside assets/.
+This is a static website, not an online CMS. Upload the complete folder to Netlify to publish.
+Before public launch: replace placeholder photos and details, check links, add real contact info, and prepare German Impressum and Datenschutzerklärung.
