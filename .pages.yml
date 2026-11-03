@@ -41,7 +41,7 @@ content:
         label: Project Title
         type: string
         required: true
-   - name: category
+      - name: category
         label: Portfolio Category
         type: select
         options:
