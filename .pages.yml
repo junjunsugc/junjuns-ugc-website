@@ -1,0 +1,68 @@
+
+media:
+  input: assets
+  output: /assets
+
+content:
+  - name: website
+    label: Website Settings
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: hero_label
+        label: Homepage Greeting
+        type: string
+      - name: hero_description
+        label: Homepage Introduction
+        type: text
+      - name: portrait
+        label: Homepage Portrait
+        type: image
+      - name: email
+        label: Contact Email
+        type: string
+      - name: instagram
+        label: Instagram Link
+        type: string
+
+  - name: projects
+    label: Portfolio Projects
+    type: collection
+    path: content/projects
+    format: json
+    filename: '{primary}.json'
+    view:
+      fields: [title, category, published]
+      primary: title
+      sort: [title]
+    fields:
+      - name: title
+        label: Project Title
+        type: string
+        required: true
+      - name: category
+        label: Portfolio Category
+        type: select
+        options:
+          - label: Beauty
+            value: beauty
+          - label: Cosplay & Fashion
+            value: fashion
+          - label: Travel, Lifestyle & Food
+            value: lifestyle
+      - name: description
+        label: Description
+        type: text
+      - name: cover
+        label: Cover Photo
+        type: image
+      - name: video
+        label: Video File
+        type: file
+      - name: status
+        label: Project Label
+        type: string
+      - name: published
+        label: Show on Website
+        type: boolean
