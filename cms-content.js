@@ -129,15 +129,17 @@
         iframe.referrerPolicy =
           'strict-origin-when-cross-origin';
 
-        iframe.style.cssText = [
-          'display:block',
-          'width:100%',
-          'height:600px',
-          'max-height:80vh',
-          'border:0',
-          'border-radius:12px',
-          'background:#fff'
-        ].join(';');
+       iframe.style.cssText = [
+  'display:block',
+  'width:100%',
+  'max-width:340px',
+  'height:560px',
+  'max-height:70vh',
+  'margin:0 auto',
+  'border:0',
+  'border-radius:12px',
+  'background:#fff'
+].join(';');
 
         area.append(iframe);
         return;
