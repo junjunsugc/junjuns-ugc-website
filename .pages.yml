@@ -57,7 +57,7 @@ content:
       - name: cover
         label: Cover Photo
         type: image
-  - name: video_url
+      - name: video_url
         label: Instagram, TikTok or YouTube Link
         type: string
         description: Paste the full URL of your video.
